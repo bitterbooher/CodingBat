@@ -11,7 +11,7 @@ def count_evens(nums):
 	for i in range(len(nums)): # lenreturns length of list
 		if (nums[i] % 2) == 0:
 				numevens += 1
-	print numevens
+	return numevens
 
 count_evens([2,1,2,3,4]) # -> 3
 count_evens([2]) # -> 1
